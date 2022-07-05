@@ -1,52 +1,33 @@
-# Project Name
-> Outline a brief description of your project.
-
-
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
+* Objectives
+* Problem solving methodology: General Approach
+* Analysis
+* Subjective Questions and answers
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+Identified and removed redundant and unnecessary columns from the housing data set.
+• Performed data cleaning on housing data set to remove the junk data (Columns having 100% null values and rows
+where the entire row is having null values) and the data which is not required for analysis
+• Analyzed the variables and their different data types, also performed null value checks for the variables Data Cleaning and Manipulation
+• Data quality issues are addressed in the right way (missing value imputation, outlier treatment and other kinds of data redundancies
+• Wherever applicable, data is converted to a suitable and convenient format to work with using the right methods for e.g. categorical variables converted into dummy variables in order build the model.
+• Splitting into train and test sets is done
+• Rescaling is done to optimize the beta coefficients
+• Model has been regularized using Ridge and Lasso Regression methods.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- numpy - version 1.20.3
+- pandas - version 1.3.4
+- seaborn - version 0.11.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+## Conclusions
+The top 5 features contributing significantly towards explaining the housing price.
+1. LotArea
+2. OverallQual
+3. YearBuilt
+4. BsmtFinSF1
+5. TotalBsmtSF
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Assignment submitted by Yogesh Kolhe. 
+https://github.com/yoyoyogesh/AdvancedRegression_Housing_Assignment feel free to contact me!
